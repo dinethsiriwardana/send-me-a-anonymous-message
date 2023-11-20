@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>about me</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body class="d-flex flex-column justify-content-center align-items-center" style="background: #1c1c1c;">
+    <div class="container d-flex d-xxl-flex flex-column justify-content-center align-items-center justify-content-xxl-center align-items-xxl-center main_container"
+        style="margin-top: 30vh;">
+        <div class="row" style="margin-top: 10px;margin-bottom: 10px;">
+            <div class="col">
+                <h1 class="text-center" style="font-weight: bold;color: var(--bs-body-bg);">Send to me</h1>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px;margin-bottom: 10px;width: 100%;">
+            <div class="col" style="width: 100%;"><textarea class="textarea" id="textmsg" style="padding: 16px;"
+                    placeholder="Send me a anonymous message" required></textarea></div>
+        </div>
+        <div class="row" style="margin-top: 10px;margin-bottom: 10px;">
+            <div class="col d-xxl-flex justify-content-xxl-center"><button class="btn btn-primary" id="sendbtn"
+                    type="button">Send to me</button></div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="module" src="assets/js/firebase.js"></script>
+    <script type="module" src="assets/js/senddata.js"></script>
+</body>
+
+</html>

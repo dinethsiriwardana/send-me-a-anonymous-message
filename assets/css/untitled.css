@@ -1,0 +1,20 @@
+.main_container {
+  background: #F7444E;
+  width: 300px;
+  height: 280px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 3px rgba(247,68,78,0.62);
+}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  border-style: none;
+  border-radius: 10px;
+}
+
+#sendbtn {
+  background: #ffa825;
+  border-style: none;
+}
+
